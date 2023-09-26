@@ -1,0 +1,15 @@
+# Some useful aliases
+
+# GitHub
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit'
+alias gca='git commit --amend'
+alias gcp='git cherry-pick'
+alias gcpc='git cherry-pick --continue'
+alias gcpa='git cherry-pick --abort'
+alias gra='git remote add'
+alias gf='git fetch'
+
+# Other
+alias cdl='cd ~/android/lineage'
