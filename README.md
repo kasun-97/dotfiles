@@ -15,6 +15,7 @@ chsh -s /bin/zsh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $HOME/.zsh/plugins/powerlevel10k
 git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.zsh/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.zsh/plugins/zsh-syntax-highlighting
+wget -P $HOME/.zsh/plugins https://raw.githubusercontent.com/rupa/z/master/z.sh
 ```
 Now we can use our dotfiles
 ```
