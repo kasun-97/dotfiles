@@ -15,7 +15,7 @@ source $ZSH/.aliases
 ### Load plugins
 # powerlevel10k
 source $ZSH/plugins/powerlevel10k/powerlevel10k.zsh-theme
-# Fast Syntax Highlighing
-source $ZSH/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 # ZSH Autosuggestions
+source $ZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Syntax Highlighing
 source $ZSH/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
