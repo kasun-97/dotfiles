@@ -22,3 +22,10 @@ Now we can use our dotfiles
 wget -P $HOME/.zsh https://raw.githubusercontent.com/kasun-97/dotfiles/master/.zsh/.zshrc 
 wget -P $HOME/.zsh https://raw.githubusercontent.com/kasun-97/dotfiles/master/.zsh/.aliases
 ```
+Now we have to create a symbolic for our custom `.zshrc` location.
+```
+rm ~/.zshrc #remove the current config file if it excist.
+ln -s -T ~/.zsh/.zshrc ~/.zshrc
+```
+
+After this you can restart your terminal and you will get the `powerlevel10k` prompt automatically loaded in zsh.
