@@ -19,5 +19,7 @@ source $ZSH/plugins/powerlevel10k/powerlevel10k.zsh-theme
 source $ZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Syntax Highlighing
 source $ZSH/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# ZSH Autocomplete
+source $ZSH/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 #initialize Z (https://github.com/rupa/z) 
 source $ZSH/plugins/z.sh
