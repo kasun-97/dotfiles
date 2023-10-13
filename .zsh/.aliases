@@ -12,6 +12,7 @@ alias gra='git remote add'
 alias gf='git fetch'
 alias glo='git log --oneline'
 alias grh='git reset --hard'
+alias gcb='git checkout -b'
 
 # Other
 alias cdl='cd ~/android/lineage'
