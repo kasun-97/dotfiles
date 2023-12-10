@@ -1,25 +1,22 @@
-### ZSH HOME
-export ZSH=$HOME/.zsh
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# Set ZSH theme
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# Enable plugins
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+
+# Source oh-my-zsh
+source $ZSH/oh-my-zsh.sh
 
 # HISTFILE setup
-export HISTFILE=$ZSH/.zsh_history
+export HISTFILE="$HOME/.zsh/.zsh_history"
 export HISTSIZE=1000000
 export SAVEHIST=1000000
 setopt HIST_FIND_NO_DUPS
 setopt HIST_REDUCE_BLANKS
 setopt INC_APPEND_HISTORY_TIME
 
-# Aliases
+# Source aliases
 source $ZSH/.aliases
-
-### Load plugins
-# powerlevel10k
-source $ZSH/plugins/powerlevel10k/powerlevel10k.zsh-theme
-# ZSH Autosuggestions
-source $ZSH/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-# Syntax Highlighing
-source $ZSH/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# ZSH Autocomplete
-source $ZSH/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-#initialize Z (https://github.com/rupa/z) 
-source $ZSH/plugins/z.sh
